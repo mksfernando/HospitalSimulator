@@ -20,8 +20,8 @@ public interface APP_CONSTANTS {
 
     // Messages
     String MSG_EXIT = "Thank you for using Hospital Simulator. Bye!";
-    String MSG_INPUT = "Enter patients' health status codes and drug codes in [S1,S2,S3 D1,D2,D3] format: ";
-    String MSG_INVALID_INPUT = "Invalid input. Please enter patients' health status codes and drug codes in [S1,S2,S3 D1,D2,D3] format.";
-    String MSG_INVALID_PATIENT = "Invalid patients' health status code. Please enter already existing codes [%s].";
-    String MSG_INVALID_DRUG = "Invalid Drug. Please enter already existing Drug [%s].";
+    String MSG_INPUT = "Enter patients' Health Status Codes and Drug Codes in [S1,S2,S3 D1,D2,D3] format or press Enter to Exit: ";
+    String MSG_INVALID_INPUT = "Invalid input. Please enter patients' Health Status Codes and Drug Codes in [S1,S2,S3 D1,D2,D3] format.";
+    String MSG_INVALID_PATIENT = "Invalid patients' Health Status Code. Please enter already existing codes [%s].";
+    String MSG_INVALID_DRUG = "Invalid Drug Code. Please enter already existing codes [%s].";
 }
